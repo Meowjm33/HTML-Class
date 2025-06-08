@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        @media screen and (min-width: 400px){
+            body{
+                background-color: green;
+            }
+        }
+        @media screen and (min-width: 800px){
+            body{
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Resize the Browser Window to see the magic!!!</h1>
+    <p>Change the background color to yellow if screen size is 800px or more wide and change the background color to green if screen size is between 400px and 799 pixels wide.And if smaller then the background color becames blue.</p>
+</body>
+</html>
